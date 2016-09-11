@@ -26,3 +26,28 @@ words: reasonable,leaky,suspicious,ordinary,unlikely
 spring:
   profiles: noun
 words: boat,book,vote,seat,backpack,partition,groundhog  
+---
+
+spring:
+  profiles: genre
+genres: Action,Action,Animation,Animation,Comedy,Comedy,Drama,Drama,Horror,Horror,Sci-Fi,Sci-Fi
+
+---
+spring:
+  profiles: name
+options: Suicide Squad,Star Wars: Episode VII - The Force Awakens,Inside Out,The Lion King,Zoolander 2,The Hangover,Titanic,Before Midnight,The Conjuring,The Ring,Star Trek Beyond,The Martian
+
+---
+spring:
+  profiles: director
+options: David Ayer,J.J. Abrams,Pete Docker,Roger Aller,Ben Stiller,Todd Philiphs,David Cameron,Richard Linklater,James Wan,Gore Verbinski,Justin Lin,Ridley Scott 
+
+---
+spring:
+  profiles: year
+options: 2016 , 2015 , 2015 , 1994 , 2016 , 2011 , 1997 , 2013 , 2013 , 2002 , 2016 , 2015
+
+---
+spring:
+  profiles: rating
+options: 6.7 , 8.2 , 8.3 , 8.5 , 4.8 , 6.5 , 7.7 , 7.9 , 7.5 , 7.1 , 7.4 , 8.0
